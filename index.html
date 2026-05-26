@@ -3,10 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Project</title>
-    <link rel="stylesheet" href="">
+    <title>Netflix Clone</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <section class="hero">
+
+        <nav>
+            <div class="logo">NETFLIX</div>
+            <button class="signin-btn">Sign In</button>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+
+            <div class="email-box">
+                <input type="email" id="email" placeholder="Enter your email">
+                <button onclick="showMessage()">Get Started ></button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="movies-section">
+        <h2>Trending Now</h2>
+
+        <div class="movie-row">
+
+            <div class="movie-card">
+                <img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=1170&auto=format&fit=crop" alt="movie">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=1170&auto=format&fit=crop" alt="movie">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://images.unsplash.com/photo-1513106580091-1d82408b8cd6?q=80&w=1170&auto=format&fit=crop" alt="movie">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?q=80&w=1170&auto=format&fit=crop" alt="movie">
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <p>Netflix Clone © 2026</p>
+    </footer>
+
+
     <script src="script.js"></script>
 </body>
 </html>
